@@ -1,0 +1,8 @@
+version: "3.5"
+
+services:
+  fanout:
+    build: .
+    restart: on-failure
+    network_mode: host  
+    env_file: .env      

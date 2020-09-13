@@ -1,0 +1,7 @@
+bin
+.idea
+Dockerfile
+README.md
+runDev.sh
+docker-compose.yaml
+.env
